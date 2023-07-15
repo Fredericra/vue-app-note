@@ -1,0 +1,30 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    body
+    {
+        display: flex;
+        justify-content: center;
+        background-image: 
+        linear-gradient(rgba(7,120,50,0.9) 12% ,rgba(8,180,52,0.5) 12%),
+        linear-gradient(rgba(97, 31, 114, 0.2) 12%,rgba(42, 104, 58, 0.5) 12%),
+        linear-gradient(rgba(104, 12, 12, 0.2) 12%,rgba(2, 18, 53, 0.5) 12%),
+        linear-gradient(rgba(92, 158, 76, 0.9) 12%,rgba(180, 8, 8, 0.9) 12%),
+        ;
+    }
+}
+@layer components{
+    .gray-bold{
+        @apply text-gray-400 font-bold;
+    }
+}
+@layer utilities{
+   .comic{
+    font-family: comic sans ms;
+   }
+   .petit{
+    font-size: 14px;
+   }
+}
